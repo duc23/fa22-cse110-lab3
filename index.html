@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE110 Group Meetings</title>
+  <link rel="icon" href="/images/favicon_110.ico">
+</head>
+<body>
+  <header> 
+    <h3>October 8, 2022</h3> 
+    <video width="320" height="240" controls src="/images/welcome.mp4"></video>
+    <p>Here's some relaxing music before we start!</p>
+    <audio controls src="/images/minecraft.mp3"></audio>
+    <div>Agenda</div>
+    <nav>
+      <ul>
+        <li><a href="#attendance">Attendance Check-In</a></li>
+        <li><a href="#intros">Intros - Getting to Know Each Other!</a></li>
+        <li><a href="#brainstorming">Brainstorming Project Ideas</a></li>
+        <li><a href="#questions/concerns">Questions/Concerns</a></li>
+        <li><a href="#to-do">To-Do For Next Meeting</a></li>
+        <li><a href="#contact-form">Contact Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Group Meeting Minutes #1 - Getting Started</h1>
+    <section>
+      <h2 id="attendance">Attendance Check-In</h2>
+        <i><p>Please <b>bold</b> your name for attendance.</p></i>
+        <ol>
+          <li>Team Lead #1</li>
+          <li>Team Lead #2</li>
+          <li>Planner</li>
+          <li>Designer</li>
+          <li>Developer #1</li>
+          <li>Developer #2</li>
+          <li>Developer #3</li>
+          <li>Developer #4</li>
+          <li>Developer #5</li>
+          <li>Developer #6</li>
+        </ol>
+    </section>
+
+    <section>
+      <h2 id="intros">Intros - Getting to Know Each Other!</h2>
+        <p>Please state your <span>name, major, and college. <br><br> Also, let everyone know one fun fact about yourself!</span></p> 
+    </section>
+
+    <section>
+      <h2 id="brainstorming">Brainstorming Project Ideas</h2>
+      <ul>
+        <li>What kind of website would you like to build - blog, business, eCommerce?</li>
+        <li>What type of <strong>problems</strong> would you like to solve?</li>
+        <li>Who is your <em>target audience</em> for the website?</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="questions/concerns">Questions/Concerns</h2>
+      <p>Any questions or concerns? If not, please post on Slack for any future questions or updates.</p>
+    </section>
+
+    <section>
+      <h2 id="to-do">To-Do For Next Meeting</h2>
+      <ul>
+        <li>Come up with team name, then post it on Slack for voting.</li>
+        <li>Post a bonding activity on Slack that you would like the group to participate in.</li>
+      </ul>
+    </section>
+
+    <hr>
+    <h2 id="contact-form">Contact Form</h2>
+    <form action="/action_page.php">
+      <fieldset>
+       <legend>More About You!</legend>
+       <label for="fname">Full name:</label><br>
+       <input type="text" id="fname" name="fname"><br>
+
+       <label for="pname">Preferred name:</label><br>
+       <input type="text" id="pname" name="pname"><br>
+
+       <label for="pronouns">Preferred Pronouns:</label><br>
+        <select id="pronouns">
+          <option value="">SELECT</option>
+          <option value="he/him">He/Him</option>
+          <option value="she/her">She/Her</option>
+          <option value="they/them">They/Them</option>
+        </select> <br><br>
+
+       <label for="email">Email:</label><br>
+       <input type="email" id="email" name="email"><br><br>
+
+       <label for="birthday">Birthday:</label><br>
+       <input type="date" id="birthday" name="birthday"><br>
+
+       <p>What is your favorite programming language?</p>
+       <input type="radio" id="Python" name="fav_language" value="Python">
+       <label for="python">Python</label><br>
+       <input type="radio" id="css" name="fav_language" value="Java">
+       <label for="java">Java</label><br>
+       <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+       <label for="javascript">JavaScript</label><br>
+       <input type="radio" id="C" name="fav_language" value="C">
+       <label for="C">C</label><br>
+       <input type="radio" id="C++" name="fav_language" value="C++">
+       <label for="C++">C++</label><br>
+       <input type="radio" id="C#" name="fav_language" value="C#">
+       <label for="C#">C#</label><br>
+       <input type="radio" id="Other" name="fav_language" value="Other">
+       <label for="Other">Other</label><br>
+
+
+       <p>Select the days you are available to meet:</p>
+       <input type="checkbox" id="Monday" name="Monday" value="Monday">
+       <label for="Monday">Monday</label><br>
+       <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">
+       <label for="Tuesday">Tuesday</label><br>
+       <input type="checkbox" id="Wednesday" name="Wednesday" value="Wednesday">
+       <label for="Wednesday">Wednesday</label><br>
+       <input type="checkbox" id="Thursday" name="Thursday" value="Thursday">
+       <label for="Thursday">Thursday</label><br>
+       <input type="checkbox" id="Friday" name="Friday" value="Friday">
+       <label for="Friday">Friday</label><br>
+       <input type="checkbox" id="Saturday" name="Saturday" value="Saturday">
+       <label for="Saturday">Saturday</label><br>
+       <input type="checkbox" id="Sunday" name="Sunday" value="Sunday">
+       <label for="Sunday">Sunday</label><br><br>
+       <label for="ice-cream">Choose your favorite ice cream flavor:</label><br>
+       <input list="ice-cream-flavors" name="ice-cream" id="ice-cream">
+       <datalist id="ice-cream-flavors">
+         <option value="Chocolate">
+         <option value="Vanilla">
+         <option value="Straweberry">
+         <option value="Mint">
+         <option value="Cookies N' Cream">
+         <option value="Other">
+       </datalist><br>
+       <p><label for="favorite-shows-movie">What are your favorite TV shows and/or movies?</label></p>
+       <textarea id="favorite-shows-movie" name="favorite-shows-movies" rows="4" cols="50">List them here!</textarea><br><br>
+       <input type="submit" value="Submit">
+      </fieldset><br>
+     </form>
+    </hr>
+    <details>
+      <summary>THE END!</summary>
+      <p>Thank you all to all has joined today. Again, post on Slack if you have anything else to address!</p>
+      <img src="/images/goodbye_wave.PNG" alt="goodbye wave" width="330" height="270">
+    </details><br>
+  </main> 
+  <footer>
+    <p>Author: Duc Vo<br>
+    <a href="mailto:Dcv004@ucsd.edu">Dcv004@ucsd.edu</a></p>
+  </footer>
+  <button type="button" onclick="alert('See you next time')">Goodbye!</button>
+</body>
+</html>
+
