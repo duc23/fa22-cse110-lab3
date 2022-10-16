@@ -5,7 +5,6 @@
     - [Name #1]
     - [Name #2]
 
-
 ## Weekly Agenda: 
     - [TO DO #1]
     - [TO DO #2]

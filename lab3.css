@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(
+          105deg,
+          rgba(195, 219, 233, 0.18) 59%,
+          rgba(219, 224, 166, 0.25) 96%
+        )
+  }
+
+  .music_paragraph{
+    color:hsl(342, 64%, 48%);
+  }
+  
+  
