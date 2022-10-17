@@ -7,6 +7,8 @@
   <title>CSE110 Group Meetings</title>
   <link rel="icon" href="./favicon_110.ico">
   <link rel="stylesheet" href="lab3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
   <style>
     h3 {color:#533eff;}
   </style>
@@ -14,13 +16,21 @@
 <body>
   <header> 
     <h3 style="background-color:gold;">October 8, 2022</h3> 
-    <video width="320" height="240" controls> <source src="./welcome.mp4"></video>
-    <div class="music_paragraph">
-      <p>Here's some relaxing music before we start!</p>
+    <video class="intro_video" controls> <source src="./welcome.mp4"></video>
+    <p class="hidden_msg">Wojtek the bear!</p>
+    <section>
+    <div class="music">
+      <p class="music_paragraph">Enjoy some relaxing music before we start!</p>
+      <audio controls> <source src="./minecraft.mp3 "></audio>
     </div>
+    </section>
+  </header>
 
-    <audio controls> <source src="./minecraft.mp3 "></audio>
-    <div>Agenda</div>
+  <main>
+    <h1>Group Meeting Minutes #1 - Getting Started</h1>
+    <section>
+    <div class="agenda_title"><h2>Agenda</h2></div>
+    <div class="agenda_list">
     <nav>
       <ul>
         <li><a href="#attendance">Attendance Check-In</a></li>
@@ -31,12 +41,13 @@
         <li><a href="#contact-form">Contact Form</a></li>
       </ul>
     </nav>
-  </header>
+    </div>
+    </section>
 
-  <main>
-    <h1>Group Meeting Minutes #1 - Getting Started</h1>
-    <section>
-      <h2 id="attendance">Attendance Check-In</h2>
+    
+       <div class="attendance_title"><h2 id="attendance" style="color:red;">Attendance Check-In</h2></div>
+        <section>
+        <div class="attendance_check">
         <p><i>Please <b>bold</b> your name for attendance.</i></p>
         <ol>
           <li>Team Lead #1</li>
@@ -50,25 +61,34 @@
           <li>Developer #5</li>
           <li>Developer #6</li>
         </ol>
+      </div>
     </section>
 
+
+
+    <div class="intros_section">
     <section>
       <h2 id="intros">Intros - Getting to Know Each Other!</h2>
-        <p>Please state your <span>name, major, and college. <br><br> Also, let everyone know one fun fact about yourself!</span></p> 
+        <p>Please state your <span>name, major, and college.</span> <br><br> Also, let everyone know one fun fact about yourself!</p> 
     </section>
+    </div>
 
+    <div class="brainstorming_section">
     <section>
-      <h2 id="brainstorming">Brainstorming Project Ideas</h2>
+      <h2 id="brainstorming" class="brainstorming_title">Brainstorming Project Ideas</h2>
       <ul>
         <li>What kind of website would you like to build - blog, business, eCommerce?</li>
         <li>What type of <strong>problems</strong> would you like to solve?</li>
         <li>Who is your <em>target audience</em> for the website?</li>
       </ul>
     </section>
+    </div>
+
+
 
     <section>
       <h2 id="questions/concerns">Questions/Concerns</h2>
-      <p>Any questions or concerns? If not, please post on Slack for any future questions or updates.</p>
+      <div>Any questions or concerns? <p class="no_questions">If not, please post on Slack for any future questions or updates.</p></div>
     </section>
 
     <section>
@@ -78,6 +98,26 @@
         <li>Post a bonding activity on Slack that you would like the group to participate in.</li>
       </ul>
     </section>
+
+    <hr> 
+
+    <section>
+    <h2>Before You Leave!</h2>
+    <h3>Choose your favorite superhero!</h3>
+    <div class="grid-superhero">
+      <div class="grid 1" id="Superman">Superman</div>
+      <div class="grid 2" id="Batman">Batman</div>
+      <div class="grid 3" id="Wonderwoman">Wonderwoman</div>  
+      <div class="grid 4" id="Spiderman">Spiderman</div>
+      <div class="grid 5" id="Ironman">Ironman</div>
+      <div class="grid 6" id="Captain_Marvel">Captain Marvel</div>  
+      <div class="grid 7" id="Black_Widow">Black Widow</div>
+      <div class="grid 8" id="Other">Other</div>
+      
+    </div>
+
+  </section>
+
 
     <hr>
     <h2 id="contact-form">Contact Form</h2>
@@ -149,21 +189,21 @@
 
        <p><label for="favorite-shows-movie">What are your favorite TV shows and/or movies?</label></p>
        <textarea id="favorite-shows-movie" name="favorite-shows-movies" rows="4" cols="50">List them here!</textarea><br><br>
-       <input type="submit" value="Submit">
+       <input type="submit" value="Submit" class="submit_button">
       </fieldset><br>
      </form>
     
     <details>
       <summary>THE END!</summary>
       <p>Thank you to all who has joined today. Again, post on Slack if you have anything else to address!</p>
-      <img src="./goodbye_wave.PNG" alt="goodbye wave" width="330" height="270">
+      <img src="./goodbye_wave.PNG" alt="goodbye wave" class="minion_image">
     </details><br>
   </main> 
   <footer>
     <p>Author: Duc Vo<br>
     <a href="mailto:Dcv004@ucsd.edu">Dcv004@ucsd.edu</a></p>
   </footer>
-  <button type="button" onclick="alert('See you next time')">Goodbye!</button>
+  <button type="button" class="bye_button" onclick="alert('See you next time')">Goodbye!</button>
 </body>
 </html>
 
